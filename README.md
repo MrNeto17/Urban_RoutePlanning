@@ -97,13 +97,3 @@ MIT License. See [LICENSE](LICENSE).
 
 *Developed as part of FEUP's DA course (Spring 2025).*
 
----
-
-### 🛠 How to Use This File:
-1. **Download**: Copy the content above into a new file named `README.md` in your project root.
-2. **Customize**: Replace placeholder values (e.g., example routes) with your actual project data.
-3. **Add Extras**:
-   - For **visuals**, add a `screenshots/` folder with demo images.
-   - For **badges**, update the shields.io links if needed.
-
-Let me know if you’d like a ZIP with the file or further customizations! 🎓
