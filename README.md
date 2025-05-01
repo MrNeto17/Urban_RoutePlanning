@@ -85,6 +85,11 @@ WalkingRoute: 6,8,10(12)
 TotalTime: 32
 ```
 
+## Examples
+
+### CSV Format
+
+1. **Distances
 ## 📄 License
 
 MIT License. See [LICENSE](LICENSE).
