@@ -24,7 +24,42 @@ Developed for **FEUP's *Design of Algorithms (DA)* course** (Spring 2025), it le
 | **Batch Mode**           | Processes `input.txt` and generates `output.txt` for automated testing.        |
 | **Error Handling**       | Handles impossible routes with clear output messages.                          |
 
+## Algorithms & Complexity Analysis Resume
+
+1. **Dijkstra's Algorithm (Modified):**
+
+  - Used for finding shortest paths in driving mode
+
+  - Time Complexity: O(|E| + |V|log|V|) with priority queue
+
+  - Space Complexity: O(|V|)
+
+2. **Hybrid Route Finder:**
+
+  - Combines Dijkstra variants for driving/walking segments
+
+  - 1st Phase: Dijkstra from source to all parking nodes
+
+  - 2nd Phase: Dijkstra (walking) from parking nodes to destination
+
+  - Time Complexity: O(k(|E| + |V|log|V|)), where k = parking nodes
+
+3. **Alternative Route Finder:**
+
+  - Runs Dijkstra, removes primary route edges/nodes, then re-runs
+
+  - Time Complexity: 2 × Dijkstra = O(2(|E| + |V|log|V|))
+
+### Optimizations
+  - Priority Queue: Min-heap implementation for efficient extraction
+
+  - Graph Pruning: Temporary removal of avoided nodes/segments
+
+  - Memoization: Caching parking node distances for hybrid routes
+
 ## 📊 Example Output
+
+### Case 1: Hybrid Route
 
 **Input (`input.txt`)**
 ```plaintext
@@ -45,6 +80,43 @@ ParkingNode: 6
 WalkingRoute: 6,8,10(12)
 TotalTime: 32
 ```
+
+### Case 2: Restricted Route
+
+**Input (`input.txt`)**
+```plaintext
+Mode: driving
+Source: 1
+Destination: 10
+AvoidNodes: 3,7
+AvoidSegments: (5,8)
+IncludeNode: 4
+```
+
+**Output (`output.txt`)**
+```plaintext
+Source: 1
+Destination: 10
+RestrictedDrivingRoute: 1,4,6,9,10(32)
+```
+
+### Case 1: Driving Non-Restricted Route
+
+**Input (`input.txt`)**
+```plaintext
+Mode: driving
+Source: 1
+Destination: 10
+```
+
+**Output (`output.txt`)**
+```plaintext
+Source: 1
+Destination: 10
+BestDrivingRoute: 1,3,7,10(25)
+AlternativeDrivingRoute: 1,2,5,8,10(28)
+```
+
 
 ## Screenshots
 
