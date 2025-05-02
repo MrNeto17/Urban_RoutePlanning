@@ -24,45 +24,6 @@ Developed for **FEUP's *Design of Algorithms (DA)* course** (Spring 2025), it le
 | **Batch Mode**           | Processes `input.txt` and generates `output.txt` for automated testing.        |
 | **Error Handling**       | Handles impossible routes with clear output messages.                          |
 
-## 🗂 Project Structure
-
-```
-DA_RoutePlanner-CPP/
-├── data/           # Sample datasets (Locations.csv, Distances.csv)
-├── docs/           # Doxygen documentation
-├── src/            # Source code
-│   ├── Graph/         # Graph data structure (vertices, edges)
-│   ├── RouteFinder/   # Dijkstra + hybrid route logic
-│   ├── FileParser/    # CSV parsing utilities
-│   └── main.cpp       # CLI menu entry point
-├── CMakeLists.txt  # Build configuration
-└── README.md       # You are here!
-```
-
-## 🛠️ How to Run
-
-1. **Compile**:
-
-```bash
-mkdir build && cd build
-cmake .. && make
-```
-
-2. Execute:
-
-- **Interactive Mode**:
-
-```bash
-./RoutePlanner
-```
-
-- **Batch Mode**:  
-Edit `input.txt` and run:
-
-```bash
-./RoutePlanner batch
-```
-
 ## 📊 Example Output
 
 **Input (`input.txt`)**
@@ -85,11 +46,19 @@ WalkingRoute: 6,8,10(12)
 TotalTime: 32
 ```
 
-## Examples
+## Screenshots
 
-### CSV Format
+### Interactive Interface Example
+<img src="https://github.com/MrNeto17/Urban_RoutePlanning/blob/main/photos/test_example.png" width="700" alt="Route visualization">
 
-1. **Distances
+### CSV Locations Format
+
+<img src="https://github.com/MrNeto17/Urban_RoutePlanning/blob/main/photos/locations.png" width="250" alt="Route visualization">
+
+### CSV Distances Format
+
+<img src="https://github.com/MrNeto17/Urban_RoutePlanning/blob/main/photos/distance.png" width="250" alt="Route visualization">
+
 ## 📄 License
 
 MIT License. See [LICENSE](LICENSE).
