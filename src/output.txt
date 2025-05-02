@@ -1,15 +1,3 @@
-Source:8
-Destination:5
-DrivingRoute:none
-ParkingNode:none
-WalkingRoute:none
-TotalTime:
-Message:Minimo tempo necessario (37) maximo tempo permitido (18)
-DrivingRoute1:8,487,516,556,885,993,996,618,610,672,571,61,1061,508,279,496,951(46)
-ParkingNode1:951
-WalkingRoute1:951,5(37)
-TotalTime1:83
-DrivingRoute2:8,1227,946,949,286,856,481,9,1097,1255(43)
-ParkingNode2:1255
-WalkingRoute2:1255,5(47)
-TotalTime2:90
+Source:1
+Destination:4
+RestrictedDrivingRoute:1,1219,1255,5,951,1223,631,755,1043,771,761,1058,497,1103,813,32,832,46,938,4(63)
