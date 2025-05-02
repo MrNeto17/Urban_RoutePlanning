@@ -52,23 +52,23 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code"
+					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code/FileParser"
+					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src/FileParser"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code/InputParser"
+					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src/InputParser"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code/RouteFinder"
+					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src/RouteFinder"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code/OutputWriter"
+					"path" : "C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src/OutputWriter"
 				}
 			],
 			"language" : "CXX",

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code
+# Install script for directory: C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/mrnet/OneDrive/Documentos/GitHub/DA_proj1/DA2425_PRJ1_G51/code/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/mrnet/OneDrive/Documentos/GitHub/Urban_RoutePlanning/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
