@@ -50,6 +50,8 @@ Developed for **FEUP's *Design of Algorithms (DA)* course** (Spring 2025), it le
 
   - Time Complexity: 2 × Dijkstra = O(2(|E| + |V|log|V|))
 
+### More data structure info can be seen in the report
+
 ### Optimizations
   - Priority Queue: Min-heap implementation for efficient extraction
 
@@ -100,7 +102,7 @@ Destination: 10
 RestrictedDrivingRoute: 1,4,6,9,10(32)
 ```
 
-### Case 1: Driving Non-Restricted Route
+### Case 3: Driving Non-Restricted Route
 
 **Input (`input.txt`)**
 ```plaintext
